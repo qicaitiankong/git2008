@@ -16,6 +16,8 @@
 		C98175332471200300AC2407 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C98175322471200300AC2407 /* main.m */; };
 		C981753D2471200300AC2407 /* git2008Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C981753C2471200300AC2407 /* git2008Tests.m */; };
 		C98175482471200300AC2407 /* git2008UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C98175472471200300AC2407 /* git2008UITests.m */; };
+		C9817557247127D600AC2407 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C9817556247127D600AC2407 /* TableViewCell.m */; };
+		C98175592471283500AC2407 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C98175582471283500AC2407 /* Icon-60@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,9 @@
 		C98175432471200300AC2407 /* git2008UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = git2008UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C98175472471200300AC2407 /* git2008UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = git2008UITests.m; sourceTree = "<group>"; };
 		C98175492471200300AC2407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9817555247127D600AC2407 /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		C9817556247127D600AC2407 /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		C98175582471283500AC2407 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,9 +117,12 @@
 				C981752724711FFC00AC2407 /* ViewController.m */,
 				C981752924711FFC00AC2407 /* Main.storyboard */,
 				C981752C2471200300AC2407 /* Assets.xcassets */,
+				C98175582471283500AC2407 /* Icon-60@2x.png */,
 				C981752E2471200300AC2407 /* LaunchScreen.storyboard */,
 				C98175312471200300AC2407 /* Info.plist */,
 				C98175322471200300AC2407 /* main.m */,
+				C9817555247127D600AC2407 /* TableViewCell.h */,
+				C9817556247127D600AC2407 /* TableViewCell.m */,
 			);
 			path = git2008;
 			sourceTree = "<group>";
@@ -243,6 +251,7 @@
 				C98175302471200300AC2407 /* LaunchScreen.storyboard in Resources */,
 				C981752D2471200300AC2407 /* Assets.xcassets in Resources */,
 				C981752B24711FFC00AC2407 /* Main.storyboard in Resources */,
+				C98175592471283500AC2407 /* Icon-60@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +279,7 @@
 				C981752824711FFC00AC2407 /* ViewController.m in Sources */,
 				C981752224711FFC00AC2407 /* AppDelegate.m in Sources */,
 				C98175332471200300AC2407 /* main.m in Sources */,
+				C9817557247127D600AC2407 /* TableViewCell.m in Sources */,
 				C981752524711FFC00AC2407 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
