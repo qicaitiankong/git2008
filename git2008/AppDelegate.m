@@ -17,6 +17,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //注释
+    UIViewController *vc = [[UIViewController alloc]init];
     return YES;
 }
 
